@@ -2,11 +2,11 @@
 
 import Link from 'next/link';
 import Footer from '@/components/ui/footer';
-import { firebaseConfig } from '@/api/firebaseConfig';
+import { firebaseConfig } from '@/app/api/firebase/firebaseConfig';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { GoogleAuthProvider, GithubAuthProvider, signInWithPopup } from 'firebase/auth';
-import { auth } from '@/api/firebaseConfig';
+import { auth } from '@/app/api/firebase/firebaseConfig';
 
 
 export default function SignIn() {
