@@ -1,0 +1,63 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/range-slider.css';
+@import 'additional-styles/toggle-switch.css';
+@import 'additional-styles/theme.css';
+
+@import 'tailwindcss/utilities';
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+
+    .spacer {
+        aspect-ratio: 960/300;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .emptyBackground {
+        aspect-ratio: 960/540;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .blobScene {
+        background-image: url('./blob-scene-haikei.svg');
+    }
+
+    .stackWave {
+        background-image: url('./layered-waves-haikei-1.svg');
+    }
+
+    .wave {
+        background-image: url('./wave-haikei.svg');
+    }
+
+    .waveTop {
+        background-image: url('./layered-waves-haikei-top.svg');
+    }
+
+    .shadowBox {
+        box-shadow: rgba(45, 50, 130, 0.15) 0px 12px 16px -4px, rgba(45, 50, 130, 0.15) 0px 4px 6px -2px;
+    }
+
+    .glassBlur {
+        backdrop-filter: blur(25px)
+    }
+
+    .gSignIn {
+        position: absolute;
+        width: 50;
+    }
+}
+
