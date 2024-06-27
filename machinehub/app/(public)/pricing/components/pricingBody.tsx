@@ -6,8 +6,6 @@ export default function PricingBody() {
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-opacity-80 pointer-events-none" aria-hidden="true"></div>
-      
-      <div className="spacer stackWave">
       <div className="relative max-w-7xl mx-auto px-12 sm:px-6">
 
         <div className="py-12 md:py-20">
@@ -34,8 +32,6 @@ export default function PricingBody() {
           </div>
           </div>
           </div>
-        
-        </div>
       
     </section>
   )

@@ -9,6 +9,7 @@ import Image from 'next/image'
 import logoImage from '@/public/images/logo.png'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
+import { UserMenu, UserDropdown } from '@/components/utils/header-menu'
 
 import { auth } from "@/app/api/firebase/firebaseConfig";
 import { GitHubSignUpButton, GoogleSignUpButton, AccountInfoCard } from '../utils/authentication';
@@ -51,6 +52,8 @@ export default function Header() {
           <GitHubSignUpButton />
           <GoogleSignUpButton />
           <AccountInfoCard />
+          <UserMenu />
+          <UserDropdown />
           <MobileMenu />
 
         </div>
