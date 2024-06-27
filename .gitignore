@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Local ignores
+/machinehub/.env
+/machinehub/node_modules/
+/machinehub/package-lock.json
+/machinehub/.next/
+/machinehub/.vscode/
+
 # Distribution / packaging
 .Python
 build/
