@@ -11,7 +11,7 @@ import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
 
 import { auth } from "@/app/api/firebase/firebaseConfig";
-import { googleSignUp, gitHubSignUp, GitHubSignUpButton, GoogleSignUpButton, AccountInfoCard } from '../utils/authentication';
+import { GitHubSignUpButton, GoogleSignUpButton, AccountInfoCard } from '../utils/authentication';
 
 
 export const currentUser = auth.currentUser;
